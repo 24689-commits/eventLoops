@@ -1,7 +1,7 @@
 let counter = 1;
 
 const interval = setInterval(() => {
-    console.log(`messege ${counter}`);
+    console.log(`message ${counter}`);
     counter++;
 
     if(counter === 4) {
