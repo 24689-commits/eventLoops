@@ -3,12 +3,12 @@
 
 
 
-//declation of the var variable
-var sum = 0;
+//declation of the let variable
+let sum = 0;
 
 //this is just a basic function 
 function addCount() {
-for (var i = 1; i < 100000; i++) {
+for (let i = 1; i < 100000; i++) {
 	sum += i;
 }
 
@@ -16,7 +16,7 @@ for (var i = 1; i < 100000; i++) {
 return sum; 
 }
 
-var timetaken = "Time taken by addCount function is ";
+let timetaken = "Time taken by addCount function is ";
 
 
 //this will display the text which is 'time taken by add count function is :'
